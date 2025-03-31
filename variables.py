@@ -166,31 +166,15 @@ rem = rem % 10          |  rem %= 10
 j = j - (i + var + rem) |  j -= (i + var + rem)
 x = x ** 2              |  x **= 2
 
-
-#============================================================#
-
-### Round function
-
-The round() function in Python is used to round a number 
-to a specified number of decimal places.
-
-round(number, ndigits)
-
-# number → The number to round.
-# ndigits (optional) → The number of decimal places to round to.
-
-### Examples
-print(round(3.14159))      # 3 (Rounds to the nearest integer) default
-print(round(3.14159, 2))   # 3.14 (Rounded to 2 decimal places)
-print(round(3.14159, 4))   # 3.1416 (Rounded to 4 decimal places)
-print(round(3.5))          # 4 (Rounds up when exactly .5)
-print(round(2.5))          # 2 (Rounds to the nearest even number)
-
 '''
 
 print(notes5)
 
+### End of Body ###
+
 #============================================================#
+ 
+ ### Footer ###
 
 print("\n#" + "="*60 + "#\n", 
 
@@ -198,3 +182,7 @@ print("\n#" + "="*60 + "#\n",
 
       "\n#" + "="*60  + "#"
       )
+
+### End of File ###
+
+#============================================================#

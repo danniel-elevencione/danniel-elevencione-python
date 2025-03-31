@@ -1,8 +1,10 @@
-# ============================================================ #
+#============================================================#
 
 # Arithmetic Operators
 
-# ============================================================ #
+#============================================================#
+
+### Header ###
 
 print("\n#", "="*60, "#\n", 
 
@@ -10,6 +12,10 @@ print("\n#", "="*60, "#\n",
 
       "\n#", "="*60, "#\n"
       )
+
+#============================================================#
+
+### Start of Body ###
 
 operators = r'''- Arithmetic Operators -
 a + b  # Addition
@@ -29,7 +35,8 @@ import math
 math.sqrt(a)  # Square Root using math module
 math.pow(a, 1/n)  # nth Root using math module
 
-##################################################################
+
+#============================================================#
 
 Remember: 
 It's possible to formulate the following rules based 
@@ -41,7 +48,8 @@ the result is an integer, too;
 the result is a float, too.
 # also applicable for multplication, division, floor and modulo
 
-##################################################################
+
+#============================================================#
 
 - List of priorities -
 Priority   #Operator
@@ -50,9 +58,43 @@ Priority   #Operator
 3          # *, /, //, %
 4          # +, -          (Lowest priority)
 
+
+#============================================================#
+
+### Round function
+
+The round() function in Python is used to round a number 
+to a specified number of decimal places.
+
+round(number, ndigits)
+
+# number → The number to round.
+# ndigits (optional) → The number of decimal places to round to.
+
+### Examples
+print(round(3.14159))      # 3 (Rounds to the nearest integer) default
+print(round(3.14159, 2))   # 3.14 (Rounded to 2 decimal places)
+print(round(3.14159, 4))   # 3.1416 (Rounded to 4 decimal places)
+print(round(3.5))          # 4 (Rounds up when exactly .5)
+print(round(2.5))          # 2 (Rounds to the nearest even number)
 '''
 
 print(operators)
 
 
-print("\n---end", "\n#", "="*60, "#")
+### End of Body ###
+
+#============================================================#
+ 
+ ### Footer ###
+
+print("\n#" + "="*60 + "#\n", 
+
+      " "*20, "- - - End - - -",
+
+      "\n#" + "="*60  + "#"
+      )
+
+### End of File ###
+
+#============================================================#
